@@ -1,4 +1,4 @@
-import { testFunction } from "../../services/myService.js";
+import { testFunction } from "../services/myService.js";
 
 export default (req, res, next) => {
   // here you can do all the code regarding the request it self and send the data to your services

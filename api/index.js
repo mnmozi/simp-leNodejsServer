@@ -1,9 +1,9 @@
 import { Router } from "express";
 
-import nationalId from "./nationalId/index.js";
+import validate from "./validate.js";
 
 const router = Router();
 
-nationalId(router);
+router.get("/", validate);
 
 export default router;
