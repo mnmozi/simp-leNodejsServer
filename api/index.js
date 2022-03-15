@@ -1,9 +1,9 @@
 import { Router } from "express";
 
-import { testFunction } from "../services/myService.js";
+import nationalId from "./nationalId/index.js";
 
 const router = Router();
 
-router.get("/", testFunction);
+nationalId(router);
 
 export default router;
